@@ -1,0 +1,61 @@
+body{
+  background-color: #60b7c4;
+}
+
+.sand, .sandDune, .sandDune2{
+  background-color: #e6ca7e;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.sandDune{
+  height: 60px;
+  width: 70%;
+  border-radius: 20%;
+  left: 20%
+}
+.sandDune2{
+  height: 80px;
+  width: 40%;
+  border-radius: 40%;
+  left: 40%;
+}
+
+.bubblewrapper, .bubblewrapper2, .bubblewrapper3, .bubblewrapper4 {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 10px;
+    left: 50%;
+}
+.bubblewrapper2 {
+    left: 25%;
+}
+.bubblewrapper3 {
+    left: 75%;
+}
+.bubblewrapper3 {
+    left: 60%;
+}
+
+.bubblepath {
+    height: 100%;
+    padding: 0 1px;
+    display: table-cell;
+    width: 600px;
+}
+
+.bubble {
+    opacity: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+}
+.bubble2 {
+    height: 20px;
+    width: 20px;
+}
