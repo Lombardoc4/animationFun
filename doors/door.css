@@ -26,7 +26,7 @@
   bottom: 49%;
 }
 
-.ball{
+.ballL, .ballR, .ballT, .ballB{
   width: 25px;
   height: 25px;
   position: fixed;
@@ -34,5 +34,12 @@
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
-  background-color: yellow;
+}
+.ballT{
+  top: 25%;
+  left: 50%;
+}
+.ballB{
+  top: 75%;
+  left: 50%;
 }
