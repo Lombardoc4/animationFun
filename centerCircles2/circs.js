@@ -1,7 +1,8 @@
-var team1 = document.querySelectorAll('.ball1, .ball3, .ball5');
-var team2 = document.querySelectorAll('.ball2, .ball4, .ball6');
-var teamSq = document.querySelectorAll('.squares');
 
+function partTwo(){
+  var team1 = document.querySelectorAll('.ball1, .ball3, .ball5');
+  var team2 = document.querySelectorAll('.ball2, .ball4, .ball6');
+  var teamSq = document.querySelectorAll('.squares');
 
   var doors = anime({
     targets: '.team1',
@@ -105,6 +106,7 @@ var ball6 = anime({
 var square = anime({
   targets: teamSq,
   loop: true,
+  backgroundColor: '#ebb434',
   borderRadius: [
     {value: '49%', duration: 1000},
     {value: '0%', duration: 1000}
@@ -124,3 +126,6 @@ var wrap1 = anime({
   easing: 'steps(17)',
   rotate: {value: '-3turn', duration: 5000},
 })
+
+};
+partTwo();
