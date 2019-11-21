@@ -1,0 +1,27 @@
+.circles {
+  position: absolute;
+}
+
+.circle1 {
+  top: 25vh;
+  left: 25vw;
+  width: 25vw;
+  height: 25vw;
+  background-color: orange;
+}
+
+.circle2 {
+  top: 45vh;
+  left: 37.5vw;
+  width: 2vw;
+  height: 2vw;
+  background-color: red;
+}
+
+.circle3 {
+  top: 40%;
+  left: 60%;
+  width: 25px;
+  height: 25px;
+  background-color: green;
+}
